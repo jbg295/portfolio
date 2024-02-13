@@ -32,15 +32,7 @@ h1, #title {
 
 
 
-@media (max-width:1000px) {
-    .project-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        width: 100vw;
-    }
-}
+
 
 #projects-title {
     margin-bottom: 20px;
@@ -66,6 +58,10 @@ h1, #title {
 
 .nav-link {
     color: #836FFF;
+}
+
+.nav-link:hover {
+    color: #b3a7ff !important;
 }
 
 .nav-link.active {
