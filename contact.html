@@ -18,7 +18,7 @@
 
         .contact-link:hover {
             color: #b3a7ff;
-            
+
         }
 
 
@@ -29,6 +29,16 @@
             align-items: center;
             width: 100vw;
             height: 100vh;
+        }
+
+        .social {
+            margin-right: 5px;
+            transition: transform .2s !important;
+        
+        }
+
+        .social:hover {
+            transform: scale(1.2) !important;
         }
     </style>
     <link rel="stylesheet" type="text/css" href="./style.css">
@@ -47,12 +57,21 @@
     <div class="info">
         <h1>Contact Information:</h1>
         <h3 class="lead mb-4">Joshua Gabel</h3>
-        <h3 class="lead mb-4"><a class="contact-link" href="mailto: joshuabgabel@gmail.com">JoshuaBGabel@gmail.com</a></h3>
+        <h3 class="lead mb-4"><a class="contact-link" href="mailto: joshuabgabel@gmail.com">JoshuaBGabel@gmail.com</a>
+        </h3>
         <h3 class="lead mb-4"><a class="contact-link" href="tel:9313197763">(931) 319-7763</a></h3>
         <h3 class="lead mb-4">Boston, Massachusetts</h3>
         <h3 class="lead mb-4">Download Resume <a href="./assets/Joshua_Gabel_Resume.pdf" download><img
                     src="./assets/download.svg"></a> </h3>
-        <a href="https://www.linkedin.com/in/gabeljosh2/" target="_blank"><img src="./assets/linkedin.svg" style="height:20px"> </a>
+
+        <div class="links">
+            <a class="social" href="https://www.linkedin.com/in/gabeljosh2/" target="_blank"><img
+                    src="./assets/linkedin.svg" style="height:20px"> </a>
+            <a class="social" href="https://github.com/jbg295" target="_blank"><img src="./assets/github.svg"
+                    style="height:20px"> </a>
+
+        </div>
+
 
 
 
@@ -60,3 +79,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+    <div class="b-example-divider"></div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
